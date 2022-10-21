@@ -1,0 +1,90 @@
+.nav {
+  height: 100vh;
+  padding: 0px 20px;
+  .topLogo {
+    position: relative;
+    .iclogo {
+      height: 35.5px;
+      position: absolute;
+      left: 5px;
+      top: 34px;
+    }
+  }
+
+  .menuItems {
+    
+    // height: 80%;
+    margin-top: 11rem;
+    // margin-left: 38px;
+    
+    margin-bottom: 10rem;
+  }
+  .bottomLgo {
+    // height: 10%;
+    
+    .icfarmer {
+      height: 50px;
+      position: absolute;
+      bottom: 0px;
+      
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "portrait") {
+    
+    .nav {
+      height: 101vh;
+      .topLogo {
+        position: relative;
+        .iclogo {
+          height: 32px;
+          position: absolute;
+          left: 10px;
+          bottom: 0px;
+        }
+      } 
+    
+      
+      .bottomLgo {
+        // height: 10%;
+        
+        .icfarmer {
+          height: 50px;
+          position: absolute;
+          bottom: 10px;
+          
+        }
+      }
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: "landscape") {
+    
+  .nav {
+    height: 101vh;
+    .topLogo {
+      position: relative;
+      .iclogo {
+        height: 32px;
+        position: absolute;
+        left: 10px;
+        bottom: 0px;
+      }
+    } 
+  
+    
+    .bottomLgo {
+      // height: 10%;
+      
+      .icfarmer {
+        height: 50px;
+        position: absolute;
+        bottom: 0px;
+        
+      }
+    }
+  }
+}
+
+

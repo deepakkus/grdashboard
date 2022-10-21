@@ -1,0 +1,78 @@
+.CropSideSection {
+    position: relative;
+    top: -10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start !important;
+    .connectButton{
+        background-color: #23D6CC;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: #fff;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .cropManagementImg{
+        background: #3a0d63 0% 0% no-repeat padding-box;
+        box-shadow: 0px 1px 3px #00000029;
+        // mix-blend-mode:color-dodge;
+        opacity: 1;
+        backdrop-filter: blur(undefined);
+        -webkit-backdrop-filter: blur(undefined);
+        border-radius: 4px;
+        z-index: 0;
+        position: absolute;
+        // width: 500px;
+    }
+    .cropImageContainer{
+        position: relative;
+        display: flex;
+        flex-direction:column;
+    }
+    .certified{
+        margin: auto;
+        z-index: 2;
+        height: 155px;
+        width: 190px;
+       
+    }
+    .cropManagementImgText{
+        
+        z-index: 3;
+        color: #fff;
+        max-width: 270px;
+        text-align: center;
+        margin: auto;
+    }
+    .cropManagementImgLink{
+        color: #52B0FF;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: "portrait") {
+    .CropSideSection {
+        position: relative;
+        top: -120% !important;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: "landscape") {
+    .CropSideSection {
+        position: relative;
+        top: -10% !important;
+        width: 98%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "portrait") {
+    .CropSideSection {
+        position: relative;
+        top: -75%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "landscape") {
+    .CropSideSection {
+        position: relative;
+        top: -50% !important;
+    }
+}

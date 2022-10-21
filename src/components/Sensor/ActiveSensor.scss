@@ -1,0 +1,46 @@
+.sensor {
+  text-transform: capitalize;
+  .segment {
+    // border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    .title {
+      // width: 50vw;
+      .name {
+        font-size: 1rem;
+      }
+      .lon_lat {
+        font-size: 0.9rem;
+      }
+    }
+    .icons {
+      // padding-top: 1rem;
+      .icon {
+        font-size: 1.2rem;
+      }
+      .font-s {
+        font-size: 1rem;
+      }
+      .font-xs {
+        font-size: 0.8rem;
+      }
+    }
+  }
+  .name {
+    font-size: 1rem;
+  }
+  .activeName {
+    font-size: 1.2rem;
+  }
+
+  .block {
+    // width: 100px;
+    float: left;
+  }
+
+  .link {
+    color: gray !important;
+    text-decoration: none !important;
+  }
+}

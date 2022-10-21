@@ -1,0 +1,123 @@
+import React, {useState, Suspense, useEffect} from "react"
+import "./tablet-view.scss"
+import { Button, Icon, Grid, Sidebar, Segment, Container } from 'semantic-ui-react'
+import { useTranslation } from "react-i18next";
+import Profile from "../Profile/Profile";
+import MainButton from "../MainButton/MainButton";
+import DashSideSection from "../../sections/DashSideSection/dashsidesection";
+import DashMidGrids from "../DashMidGrids/dashmidgrids";
+import SearchBar from "../SearchBar/SearchBar";
+import Navbar from "../Navbar/navbar";
+import PublicData from "../PublicData/PublicData";
+
+
+const TabletView = (props) =>
+{
+    const [hidden , setHidden] = useState(false)
+    const { t } = useTranslation("common");
+    // const [flag, setFlag] = useState(true);
+    // const changeFlag = () => {
+    //     setFlag(false);
+    //     setTimeout(() => {
+    //       console.log(flag);
+    //     }, 1000);
+    //   };
+    // useEffect(() => {
+    //     document.title = t(props.title);
+    //     if (props.userDevices && props.userDevices.length) {
+    //       props.getSensorsData(props.userDevices.map((d) => d.deviceId).join());
+    //     }
+    //   }, [props.title]);
+
+
+    return(
+
+        <div>
+            <Grid columns={1} className="tablet-view-grid">
+                {
+                    !hidden ? 
+                    (
+                        <Button className="tablet-view-button" style = {{zIndex: 1}} onClick={()=>{setHidden(true)}}>
+                            <Icon name="sidebar" className="mx-auto"/>
+                        </Button>
+                    )
+                    :
+                    (
+                        <Button className="tablet-view-button" style = {{zIndex: 0}} onClick={()=>{setHidden(true)}}>
+                            <Icon name="sidebar" className="mx-auto"/>
+                        </Button>
+                    )
+                }
+                <Grid.Row className="test-row">
+                    <Grid.Column width={16} className="p-0 tablet-view-container">
+                        <Sidebar.Pushable as={Segment}>
+                            <Sidebar
+                                as={Grid}
+                                animation='overlay'
+                                icon='labeled'
+                                inverted
+                                // onHide={() => setVisible(false)}
+                                vertical
+                                visible={hidden}
+                                width="very wide"
+                                direction="right"
+                                
+                            >
+                                
+                                <Grid.Column className="rightcontainer">
+                                    {/* <Container> */}
+                                    <div>
+                                        <Profile className="Profile" />
+                                    </div>
+                                    <div>
+                                        <DashSideSection />
+                                    </div>
+                                    <Container>
+                                    <div>
+                                        <PublicData {...props} latlng={props.latlng} className = "weather-det-dashboard"/>
+                                    </div>
+                                    </Container>
+                                    <div>
+                                        <MainButton className="MainButton" {...props}>{t("ADD_ACTIVITY")}</MainButton>
+                                    </div>
+                                    {/* </Container> */}
+                                </Grid.Column>
+                            </Sidebar>
+                            <Sidebar.Pusher dimmed={hidden} onClick={()=>setHidden(false)}>
+                                <Grid columns={2} className="pusher-grid" >                
+                                    <Grid.Row className="ml-1">
+                                        <Grid.Column width={1}>
+                                            <Navbar active="dashboard" 
+                                                defaultsensor={
+                                                    props.sensors && props.sensors[0]
+                                                    ? props.sensors[0].deviceId
+                                                    : undefined
+                                                }
+                                            />
+                                        </Grid.Column>
+                                        <Suspense fallback="loading">
+                                            <Grid.Column width={15}>
+                                            <div className="midcontainer" >
+                                                <SearchBar {...props} />
+                                                <DashMidGrids {...props} minWidth = {768} maxWidth = {1024}/>
+                                            </div>
+                                            </Grid.Column>    
+                                        </Suspense>
+                                    </Grid.Row>
+                                </Grid>
+                            </Sidebar.Pusher>
+                        </Sidebar.Pushable>
+                    </Grid.Column>
+                </Grid.Row>
+                
+                
+
+            </Grid>
+
+        </div>
+        
+    )
+}
+
+
+export default TabletView

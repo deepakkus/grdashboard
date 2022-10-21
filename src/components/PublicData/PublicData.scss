@@ -1,0 +1,305 @@
+.weather-det-sensors
+{
+  position: relative;
+  top: 7vh;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  background-color: #fff;
+  p{
+    font-weight: 600;
+    color: #535353;
+  }
+  max-height: 43vh;
+  overflow-y: scroll;
+}
+.weather-det-dashboard
+{
+  position: absolute; 
+  bottom: 9% !important;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  background-color: #fff;
+  width: 94%;
+  p{
+    font-weight: 600;
+    color: #535353;
+  }
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+.weather-det{
+  position: relative;
+  top: 1vh;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  background-color: #fff;
+  p{
+    font-weight: 600;
+    color: #535353;
+  }
+  overflow-y: auto;
+  max-height: 82vh;
+}
+.PublicData {
+  position: relative;
+  text-align: left;
+  top: 10px;
+  h5
+  {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .weather {
+    font-size: 14px !important;
+    align-items: center;
+    text-align: left;
+    .weather-details
+    {
+      margin-top: 50px;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      h6
+      {
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: bold;
+        color: #535353;
+      }
+      .weatherIcon {
+        position: relative;
+        top: -30%;
+      }
+    }
+
+    .crop-weather
+    {
+      position: relative;
+      top: -5vh;
+      font-size: 16px;
+      font-weight: bold;
+      // line-height: 25px;
+      .air-temp
+      {
+        font-size: 14px !important;
+      }
+    }
+    
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: "landscape") {
+
+  .weather-det{
+    position: relative;
+    top: 1vh;
+    width: 100%;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    background-color: #fff;
+    p{
+      font-weight: 600;
+      color: #535353;
+    }
+  }
+  .PublicData {
+    position: relative;
+    text-align: left;
+    top: 10px;
+    h5
+    {
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .weather {
+      font-size: 14px !important;
+      align-items: center;
+      text-align: left;
+      .weather-details
+      {
+        margin-top: 50px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        h6
+        {
+          font-size: 14px;
+          text-transform: capitalize;
+          font-weight: bold;
+          color: #535353;
+        }
+        .weatherIcon {
+          position: relative;
+          top: -30%;
+        }
+      }
+  
+      .crop-weather
+      {
+        position: relative;
+        top: -5vh;
+        font-size: 16px;
+        font-weight: bold;
+        // line-height: 25px;
+        .air-temp
+        {
+          font-size: 14px !important;
+        }
+      }
+      
+    }
+  }
+  
+  
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "portrait") {
+
+  .weather-det{
+    position: relative;
+    top: 3vh;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    background-color: #fff;
+    p{
+      font-weight: 600;
+      color: #535353;
+    }
+  }
+
+  .weather-det-sensors
+  {
+    position: relative;
+    top: 50px;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    background-color: #fff;
+    p{
+      font-weight: 600;
+      color: #535353;
+    }
+    max-height: 40vh;
+    overflow-y: scroll;
+  }
+
+  
+
+  
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "landscape") {
+
+  .weather-det{
+    position: relative;
+    top: 5vh;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    background-color: #fff;
+    p{
+      font-weight: 600;
+      color: #535353;
+    }
+    max-height: 70vh;
+    overflow-y: scroll;
+  }
+
+  .weather-det-sensors
+  {
+    position: relative;
+    top: 0px;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    background-color: #fff;
+    p{
+      font-weight: 600;
+      color: #535353;
+    }
+    max-height: 33vh;
+    overflow-y: scroll;
+  }
+
+ 
+
+  .weather-det-dashboard
+  {
+    position: relative;
+    top: -35vh !important;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    background-color: #fff;
+    p{
+      font-weight: 600;
+      color: #535353;
+    }
+    max-height: 30vh;
+    width: 42vw !important;
+    overflow-y: scroll;
+  }
+
+
+  
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: "portrait") {
+
+  .weather-det{
+    position: relative;
+    top: 2vh;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    background-color: #fff;
+    p
+    {
+      font-weight: 600;
+      color: #535353;
+    }
+  }
+  .PublicData {
+    position: relative;
+    text-align: left;
+    top: 10px;
+    h5
+    {
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .weather {
+      font-size: 14px !important;
+      align-items: center;
+      text-align: left;
+      .weather-details
+      {
+        margin-top: 50px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        h6
+        {
+          font-size: 14px;
+          text-transform: capitalize;
+          font-weight: bold;
+          color: #535353;
+        }
+        .weatherIcon {
+          position: relative;
+          top: -30%;
+        }
+      }
+  
+      .crop-weather
+      {
+        position: relative;
+        top: -5vh;
+        font-size: 16px;
+        font-weight: bold;
+        // line-height: 25px;
+        .air-temp
+        {
+          font-size: 14px !important;
+        }
+      }
+      
+    }
+  }
+  
+  
+}

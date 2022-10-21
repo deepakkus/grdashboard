@@ -1,0 +1,38 @@
+.profile {
+  // width: 100vw;
+  // height: 6vh;
+  margin-top: 1vh;
+  left: 0;
+  bottom: 0;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  // text-align: right;
+  .profile-body {
+    width: 90vw;
+    text-align: right;
+    
+  }
+  .profile-options:hover
+  {
+    cursor: pointer;
+  }
+  .profile-img {
+    width: 10vw;
+
+    img {
+      margin-left: 10px;
+      width: 7vh;
+      height: 7vh;
+      border-radius: 10px;
+    }
+  }
+
+  p {
+    margin-left: 20px;
+  }
+  hr {
+    width: 100%;
+  }
+}

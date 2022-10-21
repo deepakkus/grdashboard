@@ -1,0 +1,26 @@
+image: node:latest
+
+stages:
+  - build
+  - deploy
+develoment build:
+  stage: build
+  environment: development
+  script:
+    - npm install
+    - npm run-script build
+  artifacts:
+    paths:
+      - build/
+    expire_in: 1 day
+  only:
+    - develop
+development deploy:
+  stage: deploy
+  image: python:latest
+  environment: development
+  script:
+    - pip install awscli
+    - aws s3 sync --delete build s3://$BUCKET_NAME_DEV
+  only:
+    - develop

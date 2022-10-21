@@ -1,0 +1,206 @@
+.table {
+  margin-left: 0px !important;
+  // width: 10%;
+  padding: 0px;
+  border-radius: 12px !important;
+  .f-larg {
+    font-size: 1rem;
+  }
+  .f-s {
+    font-size: 1rem;
+  }
+  .f-xs {
+    font-size: 1rem;
+  }
+  .depthSensorImg {
+    margin-top: 0.3vh;    
+  }
+  .ph-value
+  {
+    padding-right: 0px !important; 
+    padding-left: 27px !important;
+  }
+  .additional-value
+  {
+
+  }
+  .bold {
+    font-weight: bold;
+    font-size: 14px !important;
+    color: #535353;
+    .unit
+    {
+      font-weight: normal;
+      font-size: 12px;
+    }
+  }
+  .bttn {
+    width: 50%;
+  }
+  .sensor-row {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: -11px;
+    max-width: 110% !important;
+  }
+  .sensor-column
+  {
+    padding-left: 3.2% !important;
+    
+  }
+  .header-row {
+    padding-bottom: 0;
+    margin-top: 1rem;
+    // margin-left: 1rem;
+    left: 2.5rem;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "landscape"){
+  .sensorUpper
+  {
+    .sensorDropdown
+    {
+      font-size: 15px;
+    }
+    .paramStyle
+    {
+      font-size: 17px !important;
+    }
+    .paramsVal
+    {
+      font-size: 22px !important;
+    }
+    .paramsTitle
+    {
+      font-size: 14px !important;
+    }
+    
+  }
+  .sensor-row
+  {
+    margin: 0px !important;
+  }
+  .table
+  {
+    margin-left: 5% !important;
+    max-width: 90vw;
+    // width: 10%;
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023.98px) and (orientation: "portrait"){
+
+  .sensorUpper
+  {
+    .sensorDropdown
+    {
+      font-size: 15px;
+    }
+    .paramStyle
+    {
+      font-size: 17px !important;
+    }
+    .paramsVal
+    {
+      font-size: 22px !important;
+    }
+    .paramsTitle
+    {
+      font-size: 14px !important;
+    }
+    
+  }
+
+  .table {
+    margin-left: 2% !important;
+    max-width: 90vw;
+    .bold {
+      font-weight: bold;
+      font-size: 10px !important;
+      color: #535353;
+      margin-right: -5px !important;
+      .unit
+      {
+        font-weight: normal;
+        font-size: 10px;
+      }
+    }
+    
+    .sensor-row {
+      margin: 0px !important;
+      margin-left: 2px !important;
+      max-width: 96% !important;
+    }
+    .progress-Bar
+    {
+      position: relative;
+      left: 12px;
+    }
+    .sensor-Status
+    {
+      position: relative;
+      left: 10px;
+      font-size: 10px !important;
+    }
+    
+  }
+  
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1365.98px) and (orientation: "portrait"){
+  .table
+  {
+    max-width: 90vw;
+    margin-left: 5vw !important;
+    margin-top: 4vh !important;
+  }
+  .sensorUpper
+  {
+    .sensorDropdown
+    {
+      font-size: 20px;
+    }
+    .paramStyle
+    {
+      font-size: 28px !important;
+    }
+    .paramsVal
+    {
+      font-size: 28px !important;
+    }
+    .paramsTitle
+    {
+      font-size: 18px !important;
+    }
+    
+  }
+  .sensor-row
+  {
+    margin: 0px !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: "landscape"){
+  .sensorUpper
+  {
+    .sensorDropdown
+    {
+      font-size: 20px;
+    }
+    .paramStyle
+    {
+      font-size: 28px !important;
+    }
+    .paramsVal
+    {
+      font-size: 28px !important;
+    }
+    .paramsTitle
+    {
+      font-size: 18px !important;
+    }
+    
+  }
+}

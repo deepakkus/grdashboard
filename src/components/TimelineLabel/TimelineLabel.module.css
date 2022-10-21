@@ -1,0 +1,45 @@
+.timelineHeading {
+  font-size: 18px;
+  display: inline;
+}
+.timelinesdesc
+{
+  font-size: 12px;
+}
+.timelines {
+  /* display: flex;
+  justify-content: left; */
+  position: relative;
+  right: 11.5rem;
+  
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+ 
+  .timelines {
+    /* display: flex;
+    justify-content: left; */
+    position: relative;
+    right: 6.5rem;
+    
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1449px) {
+
+  
+  .timelines {
+    /* display: flex;
+    justify-content: left; */
+    position: relative;
+    right: 10.0rem;
+    
+  }
+
+  /* .timelinecontainer
+  {
+    width: 20vw !important;
+  } */
+}

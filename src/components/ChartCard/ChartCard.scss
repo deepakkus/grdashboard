@@ -1,0 +1,42 @@
+.chartInfo {
+  width: 25%;
+  .size-standard-chart
+  {
+    font-size: 14px;
+    color: #B2AFAF;
+    font-weight: 600;
+  }
+  .size-s1-chart
+  {
+    font-size: 12px;
+    color: #B2AFAF;
+    font-weight: normal;
+    white-space:pre-wrap;
+  }
+}
+// .chartCard {
+//   width: 85%;
+// }
+
+.line-chart
+{
+  position: relative;
+  right: 30px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 12px;
+  font-size: 13px;
+  text-transform: capitalize;
+  
+}
+
+
+// .x-axis
+// {
+//   stroke: 
+// }
+
+// .monoline
+// {
+//   background: blueviolet;
+// }

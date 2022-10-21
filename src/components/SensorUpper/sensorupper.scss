@@ -1,0 +1,33 @@
+.sensorUpper {
+  .f-larg {
+    font-size: 1.5rem;
+  }
+  .f-s {
+    font-size: 1rem;
+  }
+  .f-xs {
+    font-size: 0.8rem;
+  }
+  .link {
+    color: gray !important;
+    text-decoration: none !important;
+  }
+}
+
+.sensorDropdown
+{
+  .active.selected.item
+  {
+    a
+    {
+      margin: 10px;
+    }
+  }
+  .item
+  {
+    a
+    {
+      margin: 10px;
+    }
+  }
+}

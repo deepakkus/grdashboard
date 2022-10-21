@@ -1,0 +1,215 @@
+
+    .cropMenu {
+        height: 10vh;
+    }
+    .cropList{
+        position: relative;
+        top: 10px;
+        height: 60vh;
+    }
+
+    .leftCropMenu{
+        margin-left: 1rem !important;
+        max-height: 85vh !important;
+    }
+    .rightCropMenu{
+        margin-left: 2rem !important;
+        max-height: 80vh !important;
+    }
+
+    .cropButton{
+        position: absolute;
+        bottom: 0;
+        left:-9rem;
+        height: 5vh;
+        align-content: center;
+    }
+    .ellipsis-dropdown
+    {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 15%;
+    }
+
+
+    @media only screen and (min-width:768px) and (max-width: 1024px) and (orientation: "portrait"){
+        
+
+        .leftCropMenu{
+            position: relative;
+            left: 3.2rem;
+            
+        }
+
+        .rightCropMenu{
+            margin-left: 2.2rem !important;
+            position: relative;
+            left: 10px;
+        }
+
+        .cropButton{
+            position: absolute;
+            bottom: 0px !important;
+            left: -8.0rem;
+            height: 4vh;
+            width: 30vw !important;
+            
+        }
+
+        // .cropList{
+        //     position: relative;
+        //     top: 0px;
+        //     height: 60.2vh;
+        //     // overflow-y: auto;
+        // }
+        
+
+        .ellipsis-dropdown
+        {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 0.5rem;
+        }
+
+    }
+
+
+        @media only screen and (min-width:768px) and (max-width: 1024px) and (orientation: "landscape"){
+        
+
+            .leftCropMenu{
+                position: relative;
+                left: 3.2rem;
+            }
+    
+            .rightCropMenu{
+                margin-left: 2.2rem !important;
+                position: relative;
+                left: 10px;
+            }
+    
+            .cropButton{
+                position: absolute;
+                bottom: 100px !important;
+                left: -10rem !important;
+                height: 5vh;
+                width: 26vw !important;
+                
+            }
+    
+            .cropList{
+                height: 65.2vh;
+                top: 20px !important;
+            }
+    
+            .ellipsis-dropdown
+            {
+                display: flex;
+                justify-content: center;
+                position: relative;
+                top: 0.5rem !important;
+            }
+        }
+
+
+        @media only screen and (min-width:1024px) and (max-width: 1366px) and (orientation: "portrait") {
+        
+
+            .leftCropMenu{
+                position: relative;
+                left: 3.2rem;
+            }
+    
+            .rightCropMenu{
+                margin-left: 2.2rem !important;
+                position: relative;
+                left: 10px;
+            }
+    
+            .cropButton{
+                position: absolute;
+                bottom: 0px !important;
+                left: -9.2rem;
+                height: 4vh;
+                width: 26vw !important;
+                
+            }
+    
+            .cropList{
+                // height: 65.2vh;
+                position: relative;
+                top: -3rem;
+            }
+    
+            .ellipsis-dropdown
+            {
+                display: flex;
+                justify-content: center;
+                position: relative;
+                top: 0.7rem;
+            }
+    
+    
+    
+        }
+
+
+        @media only screen and (min-width:1024px) and (max-width: 1366px) and (orientation: "landscape") {
+        
+
+            .leftCropMenu{
+                position: relative;
+                left: 3.2rem;
+            }
+    
+            .rightCropMenu{
+                margin-left: 2.2rem !important;
+                position: relative;
+                left: 10px;
+            }
+    
+            .cropButton{
+                position: absolute;
+                bottom: 0px !important;
+                left: -12.2rem;
+                height: 5vh;
+                width: 26vw !important;
+                
+            }
+    
+            .cropList{
+                height: 65.2vh;
+                position: relative;
+                top: -1rem;
+            }
+    
+            .ellipsis-dropdown
+            {
+                display: flex;
+                justify-content: center;
+                position: relative;
+                top: 0.5rem;
+            }
+    
+    
+    
+        }
+    
+
+
+        @media only screen and (min-width:1367px) and (max-width: 1490px){
+            .ellipsis-dropdown
+            {
+                display: flex;
+                justify-content: center;
+                position: relative;
+                top: -5rem;
+            }
+    
+    
+        }
+    
+    
+   

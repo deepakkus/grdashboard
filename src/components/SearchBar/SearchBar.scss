@@ -1,0 +1,135 @@
+
+
+
+.page-header {
+  margin-top: 33px;
+  // height: 10vh;
+  // width: 100vw;
+  padding-bottom: 24px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+
+  .page-title
+  {
+    
+      .visible.menu.transition
+
+      {
+        .active.selected.item
+        {
+          a
+          {
+            margin: 0px;
+          }
+        }
+      }
+  
+  }
+
+  h3 {
+    color: #0E7B3C;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: -13px;
+  }
+  
+  .search-container
+  {
+    position: relative;
+    // padding-bottom: 14px;
+    .searchbar{
+      
+      position: absolute;
+      right: 2rem;
+      .bell-icon
+      {
+        padding-left: 10px;
+      }
+  }  
+
+
+}
+  // .Dropdown {
+  //   font-size: 1.7rem;
+  //   color: green;
+  // }
+  // .link {
+  //   color: gray !important;
+  //   text-decoration: none !important;
+  // }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "portrait")
+{
+  .page-header
+  {
+    h3
+    {
+      color: #0E7B3C;
+      font-size: 28px;
+      font-weight: bold;
+      margin-left: 0px;
+      white-space: nowrap;
+    }
+    .searchbar{
+      padding-right: 65px;
+      position: relative;
+      left: 2.5%;
+      .bell-icon
+      {
+        padding-left: 10px;
+      }
+    }
+    
+  }  
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "landscape")
+{
+  .page-header
+  {
+    h3
+    {
+      color: #0E7B3C;
+      font-size: 28px;
+      font-weight: bold;
+      margin-left: 0px;
+      white-space: nowrap;
+    }
+    .searchbar{
+      padding-right: 65px;
+      position: relative;
+      left: 25.5%;
+      .bell-icon
+      {
+        padding-left: 10px;
+      }
+    }
+  }  
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: "portrait")
+{
+  .page-header
+  {
+    h3
+    {
+      color: #0E7B3C;
+      font-size: 28px;
+      font-weight: bold;
+      margin-left: 0px;
+      white-space: nowrap;
+    }
+    .searchbar{
+      padding-right: 65px;
+      position: relative;
+      left: 25.5%;
+      .bell-icon
+      {
+        padding-left: 10px;
+      }
+    }
+  }  
+}
+

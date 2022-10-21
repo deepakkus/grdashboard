@@ -1,0 +1,128 @@
+.DashSideSection {
+  position: relative;
+  top: 0%;
+  // .weatherCardSegmant {
+  //    border-radius: 15px;
+  //   // height: 20vh;
+  //   // min-width: 24%;
+  //   //--> background: #00BFFF;
+  //   // background: rgb(255, 255, 255);
+  //   // background: linear-gradient(281deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+  //   // background-image: url("https://cutewallpaper.org/21/thumbnail-backgrounds/Preview-Background-Images-For-Weather-App-youtube-.png");
+  //   // background-color: #5ff682;
+  // }
+
+  .calendarcontainer
+  {
+    border-radius: 15px;
+    position: absolute;
+    top: 0vh;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "portrait") {
+  .DashSideSection 
+  {
+    position: relative;
+    top: -30% !important;
+    .weatherCardSegmant {
+       border-radius: 15px;
+      // height: 20vh;
+      // min-width: 24%;
+      //--> background: #00BFFF;
+      // background: rgb(255, 255, 255);
+      // background: linear-gradient(281deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+      // background-image: url("https://cutewallpaper.org/21/thumbnail-backgrounds/Preview-Background-Images-For-Weather-App-youtube-.png");
+      // background-color: #5ff682;
+    }
+  
+    .calendarcontainer
+    {
+      border-radius: 15px;
+    }
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "landscape") {
+  .DashSideSection 
+  {
+    height: 80vh;
+    position: relative;
+    top: 0% !important;
+    .weatherCardSegmant {
+       border-radius: 15px;
+      // height: 20vh;
+      // min-width: 24%;
+      //--> background: #00BFFF;
+      // background: rgb(255, 255, 255);
+      // background: linear-gradient(281deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+      // background-image: url("https://cutewallpaper.org/21/thumbnail-backgrounds/Preview-Background-Images-For-Weather-App-youtube-.png");
+      // background-color: #5ff682;
+    }
+  
+    .calendarcontainer
+    {
+      border-radius: 15px;
+      position: absolute;
+      top: 0vh;
+      left: 15px;
+    }
+  }
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: "portrait") {
+  .DashSideSection 
+  {
+    // width: 25vw;
+    // height: 80vh;
+    position: relative;
+    top: -65% !important;
+    // left: -2%;
+    .weatherCardSegmant {
+       border-radius: 15px;
+      // height: 20vh;
+      // min-width: 24%;
+      //--> background: #00BFFF;
+      // background: rgb(255, 255, 255);
+      // background: linear-gradient(281deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+      // background-image: url("https://cutewallpaper.org/21/thumbnail-backgrounds/Preview-Background-Images-For-Weather-App-youtube-.png");
+      // background-color: #5ff682;
+    }
+  
+    .calendarcontainer
+    {
+      border-radius: 15px;
+    }
+  }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: "landscape") {
+  .DashSideSection 
+  {
+    // width: 25vw;
+    // height: 80vh;
+    position: relative;
+    top: -40%;
+    left: -2%;
+    .weatherCardSegmant {
+       border-radius: 15px;
+      // height: 20vh;
+      // min-width: 24%;
+      //--> background: #00BFFF;
+      // background: rgb(255, 255, 255);
+      // background: linear-gradient(281deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+      // background-image: url("https://cutewallpaper.org/21/thumbnail-backgrounds/Preview-Background-Images-For-Weather-App-youtube-.png");
+      // background-color: #5ff682;
+    }
+  
+    .calendarcontainer
+    {
+      border-radius: 15px;
+    }
+  }
+
+}

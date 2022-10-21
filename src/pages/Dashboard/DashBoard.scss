@@ -1,0 +1,35 @@
+.main {
+  text-align: center;
+}
+
+.midBody {
+  // margin-top: 5rem !important;
+  .search {
+    width: 100% !important;
+    height: 10% !important;
+  }
+  .mainContnet {
+    width: 100% !important;
+    height: 90% !important;
+  }
+}
+
+.sideSection {
+  background-color: #000000;
+
+  .weatherImg {
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    img {
+      width: 100%;
+      height: 200px;
+    }
+  }
+  .CalenderCard {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+}
+

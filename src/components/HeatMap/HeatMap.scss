@@ -1,0 +1,27 @@
+.map-container {
+    // height: 400px;
+    height: 74vh;
+    width: 650px;
+    // width: 25%;
+    background-color: rgb(255, 255, 255);
+}
+
+.value-container{
+    display: block;
+    float: right;
+    width: 280px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-bottom: 2vh;
+    background-color: rgb(250, 255, 255);
+    border-radius: 0.5rem;
+    position: relative;
+
+    .heatmap-form
+    {
+        // border: 1px solid black;
+    }
+}

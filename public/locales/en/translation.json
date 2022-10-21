@@ -1,0 +1,72 @@
+{
+  "translation": {
+    "gridinfo": "Data Here",
+
+    "home": "Home",
+    "settings": "Settings",
+    "sensor": "Sensor",
+    "error": "Something went wrong",
+
+    "completeprofile": "Complete Your Profile",
+    "addSensor": "Add Sensor",
+
+    "publicData": "public Data",
+    "Temp": "Temp:",
+    "PrecipitationIntensity": "Precipitation Intensity:",
+    "PrecipitationProbability": "Precipitation Probability:",
+    "Pressure": "Pressure:",
+    "WindSpeed": "Wind Speed:",
+    "WindDirection": "Wind Direction:",
+
+    "ADD_ACTIVITY": "ADD ACTIVITY",
+
+    "sensorsempty": "Please Add a Sensor",
+
+    "SurfaceParameters": "Surface Parameters",
+    "Humidity": "Humidity",
+    "AirTemp": "Air Temp",
+    "SolarRadiation": "Solar Radiation",
+
+    "uptime": "Uptime",
+    "todayLastUpdate": " TODAY | LAST UPDATED AT",
+    "location": "Location Pin",
+    "edit": "Edit",
+    "Nitrogen": "Nitrogen",
+    "Phosphorus": "Phosphorus",
+    "Potassium": "Potassium",
+    "Salinity": "Salinity",
+    "SoilTemp": "Soil Temp",
+    "pH": "pH",
+    "Moisture": "Moisture",
+    "Additional": "Additional",
+    "Ideal": "IDEAL RANGE",
+    
+    "emptylist": "Empty List",
+    "emptyoption": "No Items",
+
+    "submit": "Submit",
+    "cancel": "Cancel",
+    
+    "addcrop": "Add Crop",
+    "cropformcheckbox": "Please note this data can't be modified once Submitted",
+    "cultivationhelper":"Choose from the list",
+    "cultivationlabel":"Cultivation Type",
+    "endingdatehelper":"Choose the ending date of the crop cycle",
+    "endingdatelabel":"Ending Date",
+    "startingdatehelper":"Choose the starting date of the crop cycle",
+    "startingdatelabel":"Starting Date",
+    "seedhelper":"Select the Seed Type from the List",
+    "seedlabel":"Seed Type",
+    "crophelper":"Select the Crop from the List",
+    "croplabel":"Crop Type",
+
+    "menucurrent": "Current Crop Cycle",
+    "menupast": "Past Crop Cycle",
+
+    "addbutton": "Add",
+    
+    "adddevice": "Add Device",
+    "back": "Back",
+    "entersensor": "REGISTER IOT SOIL SENSOER"
+  }
+}

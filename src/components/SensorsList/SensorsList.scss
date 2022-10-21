@@ -1,0 +1,16 @@
+.sensorsList {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 35vh;
+  .top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sensorsContainer {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+}

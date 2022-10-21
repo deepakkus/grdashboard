@@ -1,0 +1,230 @@
+.settingsContainer
+{   
+    
+    .settingsSegment
+    {
+        border-radius: 12px !important;
+    }
+    margin: 0px !important;
+    // max-height: 5vh !important;
+    .settingsRow
+    {
+        margin: 0px;
+        // max-height: 90vh !important;
+    }
+    .settingsList
+    {
+        max-height: 80vh !important;
+        overflow-y: hidden;
+        margin-top: -20px;
+    }
+    .save-btn-container
+    {
+        margin: 0px !important;
+        // padding: 10px !important;
+        border-top: 1px solid #70707041 !important;
+        position: relative;
+        bottom: 14px;
+        .save
+        {
+            background-color: #58CB7C;
+            font-size: 14px;
+            padding: 15px 74px;
+            color: white;
+        }
+     
+        
+    }
+    .soil-health-input
+    {
+        border-left: 2px solid #DCDCDC;
+        max-height: 72vh !important;
+        position: relative;
+        top: 15px;
+        overflow-y: auto;
+    }
+    .soil-test-btn-container
+    {   
+        // display: flex;
+        // align-items: center !important;
+        margin: 0px !important;
+        height: 8vh;
+        // padding: 10px !important;
+        position: relative;
+        // bottom: 0px;
+        .add-soil
+        {
+            position: absolute;
+            // top: 85%;
+            bottom: 0px;
+            left: 30%;
+            background-color: #58CB7C;
+            font-size: 14px;
+            padding: 15px 74px;
+            color: white;
+        }
+        
+    }
+}
+.user-fields-container
+{
+    max-height: 54vh;
+    overflow-y: auto;
+    // width: 50vw !important;
+}
+.settings-list-elements
+{
+    max-height: 50vh;
+    overflow-y: auto;
+    position: relative;
+    top: 20px;
+}
+.soil-health-left-container
+{
+    max-height: 70vh;
+    overflow-y: auto;
+}
+ 
+@media screen and (min-width: 768px) and (max-width: 1023.98px) and (orientation: "portrait")
+{
+    
+
+    .soil-health-left-container
+    {
+        max-height: 100vh;
+        overflow-y: hidden;
+    }
+    .settingsContainer
+    {   
+        max-height: 10vh !important;
+        .soil-test-btn-container
+        {   
+            margin: 0px !important;
+            height: 10vh;
+            position: relative;
+            .add-soil
+            {
+                position: absolute;
+                top: 20%;
+                left: 20%;
+                background-color: #58CB7C;
+                font-size: 14px;
+                padding: 15px 15px;
+                color: white;
+            }
+            
+        }
+        .save-btn-container
+        {
+            margin: 0px !important;
+            // padding: 10px !important;
+            border-top: 1px solid #70707041 !important;
+            position: relative;
+            bottom: 12px;
+            left: 0%;
+            .save
+            {
+                position: relative;
+                left: 50%;
+                top: 20%;
+                background-color: #58CB7C;
+                font-size: 14px;
+                padding: 15px 74px;
+                color: white;
+            }
+        
+            
+        }
+        .soil-health
+        {
+            max-height: 90vh;
+            // overflow-y: scroll;
+            .soil-health-row
+            {
+                height: 80vh !important;
+                // overflow: hidden;
+            }
+        }
+        .soil-health-input
+        {
+            overflow-y: scroll;
+            max-height: 80vh;
+            border-left: 2px solid #DCDCDC;
+            width: 41vw;
+        }
+        
+        
+    }
+    
+
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: "portrait")
+{
+    
+    // .soil-health-input
+    // {
+    //     border-left: 2px solid #DCDCDC;
+    //     max-height: 2vh !important;
+    //     position: relative;
+    //     top: 1px;
+    //     overflow-y: auto;
+    // }
+
+    .settingsContainer
+    {   
+        
+        .save-btn-container
+        {
+            margin: 0px !important;
+            // padding: 10px !important;
+            border-top: 1px solid #70707041 !important;
+            position: relative;
+            bottom: 12px;
+            left: 0%;
+            .save
+            {
+                position: relative;
+                left: 0%;
+                top: 20%;
+                background-color: #58CB7C;
+                font-size: 14px;
+                padding: 15px 74px;
+                color: white;
+            }
+        
+            
+        }
+        .soil-health
+        {
+            .soil-health-row
+            {
+                max-height: 100vh !important;
+            }
+        }
+
+        .soil-test-btn-container
+        {   
+            margin: 0px !important;
+            height: 7vh;
+            position: relative;
+            .add-soil
+            {
+                position: absolute;
+                bottom: 0px;
+                left: 25%;
+                background-color: #58CB7C;
+                font-size: 14px;
+                padding: 15px 74px;
+                color: white;
+            }
+            
+        }
+
+    }
+    
+
+
+}

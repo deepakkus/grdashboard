@@ -1,0 +1,162 @@
+{
+  "common": {
+    "gridinfo": "Data Here",
+
+    "home": "Home",
+    "settings": "Settings",
+    "sensor": "Sensor",
+    "error": "Something went wrong",
+
+    "completeprofile": "Complete Your Profile",
+    "add-sensor": "ADD SENSOR",
+
+    "ADD_ACTIVITY": "ADD ACTIVITY",
+
+    "sensorsempty": "Please Add a Sensor",
+
+    "SurfaceParameters": "Surface Parameters",
+    "Humidity": "Humidity",
+    "AirTemp": "Air Temp",
+    "SolarRadiation": "Solar Radiation",
+
+    "uptime": "Uptime",
+    "todayLastUpdate": " TODAY | LAST UPDATED AT",
+    "location": "Location Pin",
+    "edit": "Edit",
+    "Nitrogen": "Nitrogen",
+    "Phosphorus": "Phosphorus",
+    "Potassium": "Potassium",
+    "Salinity": "Salinity",
+    "SoilTemp": "Soil Temp",
+    "pH": "pH",
+    "Moisture": "Moisture",
+    "Additional": "Additional",
+    "Ideal": "Ideal ",
+    "dashboard": "Dashboard",
+    "select": "Select",
+    "next": "Next",
+    "save": "SAVE",
+    "sensors": "Sensors",
+    "AreaSelected": "Area Selected",
+    "SelectIndices": "Select Indices",
+    "SelectDate": "Select Date",
+    "SelectCloudCover": "Select Cloud Cover",
+    "GenerateHeatMap": "Generate Heat Map",
+    "Download": "Download",
+    "Generate-New-HeatMap": "Generate New HeatMap"
+  },
+  "public-data": {
+    "public-data": "Public Data",
+    "temp": "Temp:",
+    "precipitation-intensity": "Precipitation Intensity:",
+    "precipitation-robability": "Precipitation Probability:",
+    "pressure": "Pressure:",
+    "wind-speed": "Wind Speed:",
+    "wind-direction": "Wind Direction:",
+    "visibility": "Visibility:",
+    "humidity": "Humidity:"
+  },
+  "add-edit-farm": {
+    "add-edit-farm": "Add Edit Farm",
+    "address-placeholder": "Search from Google"
+  },
+  "dashboard": {
+    "field-info": "Field Info",
+    "add-field": "+ ADD FIELD",
+    "edit": "ُEdit",
+    "location": "Location:",
+    "soil-type": "Soil Type:",
+    "terran-type": "Terran Type:",
+    "water-source": "Water Source:",
+    "crop": "Crop:",
+    "stage": "Stage:",
+    "field-insights": "FIELD INSIGHTS",
+    "total-field-area": "TOTAL FIELD AREA",
+    "avg-yield": "AVG.YIELD",
+    "total-rec-activities": "TOTAL REC ACTIVITIES",
+    "analytics-perscription": "ANALYTICS & PRESCRIPTION",
+    "last": "Last",
+    "general": "General",
+    "view-all": "View All"
+  },
+  "crop-management": {
+    "crop-management-title": "Crop Management",
+    "empty-list": "Empty List",
+    "empty-cc": "No Crop Cycles Added",
+    "empty-option": "No Items",
+
+    "submit": "Submit",
+    "cancel": "Cancel",
+
+    "add-crop": "Add Crop",
+    "cc-form-title": "Add Crop Cycle Form",
+    "cc-form-checkbox": "Please note that it can't be modified later",
+    "cultivation-helper":"Choose from the list",
+    "cultivation-label":"Cultivation Type",
+    "ending-date-helper":"Choose the ending date",
+    "ending-date-error":"Ending date should be after the starting date",
+    "ending-date-label":"Ending Date",
+    "starting-date-helper":"Choose the starting date",
+    "starting-date-label":"Starting Date",
+    "seed-helper":"Select the Seed Type",
+    "seed-label":"Seed Type",
+    "crop-helper":"Select the Crop",
+    "crop-label":"Crop Type",
+    "cc-unchecked-error": "Please check the checkbox",
+  
+    "menu-current": "Current Crop Cycle",
+    "menu-past": "Past Crop Cycle",
+    "add-button": "ADD NEW CROP CYCLE",
+    "add-activity": "Add Activity",
+
+    "current": "Current",
+    "past": "Past",
+    "irrigation": "Irrigation",
+    "stage": "Stage",
+
+    "dropdown-text": "Crop Cycle Timeline",
+    "activity-logs-title": "Activity Logs"
+  },
+  "add-activity": {
+    "act-form-title": "Add Activity Form",
+    "empty-list": "Empty List",
+    "empty-option": "No Items",
+
+    "submit": "Submit",
+    "cancel": "Cancel",
+
+    "activity-label": "Choose activity",
+    "activity-helper":"Choose from the list",
+ 
+    "cc-form-checkbox": "Please note that it can't be modified later",
+
+    "cc-helper":"Choose from the list",
+    "cc-label":"Current Crop Cycles Fields",
+    "log-date-helper":"Choose the log date",
+    "log-date-error":"Log date should be between cropcycle's period",
+    "log-date-label":"Log Date",
+    "description-helper":"Optional Text",
+    "description-label":"Description",
+
+    "cc-unchecked-error": "Please check the checkbox",
+  
+    "add-button": "Add",
+
+    "current": "Current",
+    "past": "Past",
+    "irrigation": "Irrigation",
+    "stage": "Stage"
+  },
+  "add-device": {
+    "add-button": "Add",
+    "add-device": "Add Device",
+    "device-id": "Device ID",
+    "enter-sensor": "REGISTER IOT SOIL SENSOER",
+    "place-holder": "Enter Device ID",
+    "back": "Back",
+    "next": "Next",
+    "success-msg": "Device Added Successfull",
+    "error-msg": "ID is't valid, please enter a valid device ID",
+    "validation-msg": "Device ID is not valid"
+  }
+}

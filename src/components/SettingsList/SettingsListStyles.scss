@@ -1,0 +1,254 @@
+.user-fields
+{
+    border-radius: 12px;
+    background: #1CB973 !important;
+    // width: 50vw;
+    h5
+    {
+        color: rgb(255, 255, 255);
+    }
+    .fieldImg
+    {
+        padding: 0px 0px 0px 20px !important;
+        
+    }
+    .Img
+        {
+            border-radius: 5px;
+        }
+    .fieldHeading
+    {
+        display: flex;
+        justify-content: space-between;
+        h5
+        {
+            font-size: 14px;
+            color: #fff;
+            font-weight: 800;
+        }
+        margin: 0px 0px 5px 0px;
+    }
+    .fieldUpper
+    {
+        display: flex;
+        justify-content: space-between;
+        span
+        {
+            color: #fff;
+            font-weight:600;
+            font-size: 11px;
+        }
+    }
+    .report-date
+    {
+        span
+        {
+            font-weight: 600;
+            font-size: 11px;
+        }
+    }
+    .fieldBottom
+    {
+        background: #0E8851;
+        margin: 0px;
+        font-size: 9.5px;
+        font-weight: 600;
+        .soilHealth-card
+        {
+            display: flex;
+            justify-content: flex-start;
+            .lab-name
+            {
+                white-space: nowrap;
+            }
+            .soil-type
+            {
+                // white-space:pre-wrap;
+                // padding: 1px;
+            }
+        }
+
+
+        .fielDetails-bottom
+        {
+            padding: 0px 0px 0px 10px !important;
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "portrait"){
+    .user-fields
+    {
+        border-radius: 12px;
+        background: #1CB973 !important;
+        h5
+        {
+            color: rgb(255, 255, 255);
+            font-size: 12px !important;
+        }
+        .fieldImg
+        {
+            padding: 0px 0px 0px 10px !important;
+            
+        }
+        .Img
+        {
+            border-radius: 5px;
+        }
+        .fieldHeading
+        {
+            display: flex;
+            justify-content: space-between;
+            h5
+            {
+                font-size: 12px !important;
+                color: #fff;
+                font-weight: 600;
+            }
+            margin: 0px 0px 2px 0px;
+        }
+        .fieldUpper
+        {
+            display: flex;
+            justify-content: space-between;
+            span
+            {
+                font-size: 9px;
+                color: #fff;
+                font-weight:600
+            }
+        }
+        .fieldBottom
+        {
+            background: #0E8851;
+            margin: 0px;
+            font-size: 8px;
+            font-weight: 600;
+            
+
+            .fielDetails-bottom
+            {
+                padding: 0px 0px 0px 5px !important;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "landscape"){
+    .user-fields
+    {
+        border-radius: 12px;
+        background: #1CB973 !important;
+        h5
+        {
+            color: rgb(255, 255, 255);
+            font-size: 14px !important;
+        }
+        .fieldImg
+        {
+            padding: 0px 0px 0px 10px !important;
+            
+        }
+        .Img
+        {
+            border-radius: 5px;
+        }
+        .fieldHeading
+        {
+            display: flex;
+            justify-content: space-between;
+            h5
+            {
+                font-size: 13px !important;
+                color: #fff;
+                font-weight: 600;
+            }
+            margin: 0px 0px 2px 0px;
+        }
+        .fieldUpper
+        {
+            display: flex;
+            justify-content: space-between;
+            span
+            {
+                font-size: 10px;
+                color: #fff;
+                font-weight:600
+            }
+        }
+        .fieldBottom
+        {
+            background: #0E8851;
+            margin: 0px;
+            font-size: 9px;
+            font-weight: 600;
+            
+
+            .fielDetails-bottom
+            {
+                padding: 0px 0px 0px 10px !important;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: "portrait"){
+    .user-fields
+    {
+        border-radius: 12px;
+        background: #1CB973 !important;
+        h5
+        {
+            color: rgb(255, 255, 255);
+            font-size: 14px !important;
+        }
+        .fieldImg
+        {
+            padding: 0px 0px 0px 10px !important;
+            
+        }
+        .Img
+        {
+            border-radius: 5px;
+        }
+        .fieldHeading
+        {
+            display: flex;
+            justify-content: space-between;
+            h5
+            {
+                font-size: 15px !important;
+                color: #fff;
+                font-weight: 600;
+            }
+            margin: 0px 0px 2px 0px;
+        }
+        .fieldUpper
+        {
+            display: flex;
+            justify-content: space-between;
+            span
+            {
+                font-size: 11.5px;
+                color: #fff;
+                font-weight:600
+            }
+        }
+        .fieldBottom
+        {
+            background: #0E8851;
+            margin: 0px;
+            font-size: 9.5px;
+            font-weight: 600;
+            
+
+            .fielDetails-bottom
+            {
+                padding: 0px 0px 0px 5px !important;
+            }
+        }
+    }
+}

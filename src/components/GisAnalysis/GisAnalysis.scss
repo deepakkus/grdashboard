@@ -1,0 +1,89 @@
+.gis-app
+{
+    padding: 0px 16px !important;
+    .gis-app-btn
+    {
+        background-color: #58CB7C !important;
+        border-radius: 4px !important;
+        color: white !important;
+        position: relative;
+        top: -4px;
+        width: 12vw;
+        &:hover
+        {
+            background-color: #049e35 !important;
+
+        }
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "portrait") {
+
+    .gis-app
+    {
+        padding: 0px 16px !important;
+        .gis-app-btn
+        {
+            background-color: #58CB7C !important;
+            border-radius: 4px !important;
+            color: white !important;
+            position: relative;
+            top: -4px;
+            width: 16vw;
+            &:hover
+            {
+                background-color: #049e35 !important;
+
+            }
+        }
+
+    }
+    
+}
+
+
+.analysis-map
+{
+    
+    border-radius: 12px !important;
+    
+    
+    .segment-Gis{
+        height: 74vh;
+      
+        .map
+        {
+            height: 74vh;
+        }
+    }
+    
+    
+   
+    
+    .form-wrapper{
+        display: block;
+        width: 20.5vw;
+        margin-top: 2vh;
+        padding-top: 2vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        padding-bottom: 2vh;
+        background-color: rgb(255, 255, 255);
+        border-radius: 0.5rem;
+        float: right;
+        position: relative;
+
+
+        .form-button
+        {
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 16px 0px;
+        }
+    }
+    
+   
+    
+}

@@ -1,0 +1,148 @@
+.MainButton {
+  position: relative;
+  // sheight: 21vh;
+  .btn-ele
+  {
+    .bttn {
+      
+      // position: absolute;
+      // bottom: -20px; 
+      // background-color: #42cc7b;
+      // color: white;
+      
+    
+    }
+  }
+}
+.cropSide-activity-btn
+{
+  // position: relative;
+  // height: 43vh;
+  // .btn-ele
+  // {
+  //   .bttn
+  //   {
+  //     position: absolute;
+  //     background-color: #42cc7b;
+  //     color: white;
+  //     bottom: 0px;
+  //   }
+  // }
+}
+// .gis
+// {
+    
+//   position: relative;
+//   height: 12vh;
+  
+//   .btn-ele
+//   {
+//     .bttn
+//     {
+//       position: absolute;
+//       // right: -5px;
+//       bottom: 0rem;
+//       background-color: #42cc7b;
+//       color: white;
+//     }
+//   }
+
+// }
+.gis-activity-btn
+{
+  position: relative;
+  height: 47vh;
+  .btn-ele
+  {
+    .bttn
+    {
+      position: absolute;
+      bottom: 0px;
+      background-color: #42cc7b;
+      color: white;
+    }
+  }
+}
+.settings-activity-btn
+{
+  position: relative;
+  height: 47vh;
+  .btn-ele
+  {
+    .bttn
+    {
+      position: absolute;
+      bottom: 0px;
+      background-color: #42cc7b;
+      color: white;
+    }
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "landscape") {
+
+  // .MainButton {
+  //   position: relative;
+  //   .btn-ele
+  //   {
+  //     .bttn {
+        
+  //       position: absolute;
+  //       bottom: 6vh; 
+  //       // background-color: #42cc7b;
+  //       // color: white;
+        
+      
+  //     }
+  //   }
+  // }
+  
+}
+
+// @media only screen and (min-height : 979px){
+  
+//   .MainButton {
+    
+//     position: relative;
+//     height: 10vh;
+//     top: 15rem;
+    
+//     .btn-ele
+//     {
+      
+//       .bttn {
+        
+//         position: absolute;
+//         right: -5px;
+//         bottom: 0rem;
+//         background-color: #42cc7b;
+//         color: white;
+        
+      
+//       }
+//     }
+//   }
+
+//   .gis
+//   {
+      
+//     position: relative;
+//     height: 10vh;
+//     top: 33rem;
+//     .btn-ele
+//     {
+//       .bttn
+//       {
+//         position: absolute;
+//         right: -5px;
+//         bottom: 0rem;
+//         background-color: #42cc7b;
+//         color: white;
+//       }
+//     }
+  
+//   }
+
+
+// }
