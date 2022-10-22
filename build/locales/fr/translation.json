@@ -1,0 +1,52 @@
+{
+  "translation": {
+    "gridinfo": "Data Cela",
+    "field": "",
+    "button": "Ajouter de l'Activity",
+
+    "completeprofile": "Completer Votre Profile",
+
+    "publicData": "Données publiques",
+
+    "home": "Accueil",
+    "settings": "Settings",
+    "sensors": "Sensors",
+    "error": "Quelque Chose Marche Pas",
+
+    "add": "Add Sensors",
+    "list": "List of Sensors",
+
+    "sensorsempty": "Please Add a Sensor",
+    "solarrad": "Solar Radiation",
+    "airtemp": "Air Temp",
+    "humidity": "Humidity",
+    "surfaceparams": "Surface Parameters",
+    "location": "Location Pin",
+    "uptime": "Uptime",
+    "edit": "Edit",
+
+    "emptylist": "Empty List",
+    "emptyoption": "No Items",
+
+    "submit": "Submit",
+    "cancel": "Cancel",
+    
+    "addcrop": "Ajouter Crop",
+    "cropformcheckbox": "fr(Please note this data can't be modified once Submitted)",
+    "cultivationhelper":"fr(Choose from the list)",
+    "cultivationlabel":"fr(Cultivation Type)",
+    "endingdatehelper":"fr(Choose the ending date of the crop cycle)",
+    "endingdatelabel":"fr(Ending Date)",
+    "startingdatehelper":"fr(Choose the starting date of the crop cycle)",
+    "startingdatelabel":"fr(Starting Date)",
+    "seedhelper":"fr(Select the Seed Type from the List)",
+    "seedlabel":"fr(Seed Type)",
+    "crophelper":"fr(Select the Crop from the List)",
+    "croplabel":"fr(Crop Type)",
+
+    "menucurrent": "fr(Current Crop Cycle)",
+    "menupast": "fr(Past Crop Cycle)",
+
+    "addbutton": "Ajouter"
+  }
+}
